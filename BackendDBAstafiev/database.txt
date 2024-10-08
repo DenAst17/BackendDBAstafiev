@@ -1,0 +1,34 @@
+Database: Test1
+Table: Table2
+Columns:
+Column: Col1, Type: int
+Column: Col2, Type: int
+Column: RealValues, Type: real
+Records:
+Record: 3,4,3.5,
+Record: 1,1,0,
+Record: 1,2,3,
+Record: 1,2,3,
+TableEnd
+Table: Table1
+Columns:
+Column: NumTable1, Type: int
+Column: TEXT, Type: string
+Records:
+Record: 2,text,
+TableEnd
+Table: JoinedTable08.10.2024 16:59:11
+Columns:
+Column: Table2.Col1, Type: int
+Column: Table2.Col2, Type: int
+Column: Table2.RealValues, Type: real
+Column: Table1.NumTable1, Type: int
+Column: Table1.TEXT, Type: string
+Records:
+Record: 2,4,3.5,2,text2,
+Record: 1,1,3.5,1,text,
+TableEnd
+Table: Table3
+Columns:
+Records:
+TableEnd

@@ -1,0 +1,6 @@
+@BackendDBAstafiev_HostAddress = http://localhost:5003
+
+GET {{BackendDBAstafiev_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
